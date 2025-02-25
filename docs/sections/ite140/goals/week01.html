@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GCTAA ITE 140 Week 1</title>
+<style>
+@import url(../style.css);
+li {
+    margin-top: 10px;
+}
+</style>
+<script>
+function init() {
+  var loc = window.location.href;
+  var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+  var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                        loc + '?profile=css3';
+  document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+  document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+}
+window.onload = init;
+</script>
+</head>
+<body>
+<header>
+<a href="index.html">
+<img src="../images/gctaa_nvcc.png" alt="GCTAA Logo"></a>
+<div>
+<h2>Governor's Career &amp; Technical Academy Arlington</h2>
+<h1>ITE 140: Week 1</h1>
+</div>
+</header>
+<hr>
+
+<article>
+<time datetime="2024-08-26">Week of Monday, August 26, 2024</time>
+
+<h2>Overview</h2>
+<div>
+<p>
+Welcome to Database Design and Management!  This is the second time that ACC has offered this course, and my first time teaching it, so you will you be in some ways pioneers in uncharted
+territory.  The big goal will be to learn a collection of useful skills and
+explore ideas related to <a href="https://en.wikipedia.org/wiki/Data_science">
+data science</a>.
+</p><p>
+During the Fall semester this year long dual-enrolled course will be
+dual-enrolled with
+<a href="https://courses.vccs.edu/courses/ITE140-Spreadsheet%20Software">ITE
+140: Spreadsheeting for Business</a>. If you took that course on campus at NVCC, you
+would find it a course about how to use
+<a href="https://en.wikipedia.org/wiki/Microsoft_Excel">Microsoft Excel</a>.
+</p> My intention and expectation is that we can speed through this content and spend most of the year focusing on how to manipulate data (contained in Excel, databases, and other formats) through Python. We will use several resources throughout this class, including 
+<a href="https://www.oreilly.com/library/view/python-for-excel/9781492080992/">
+Python for Excel: A Modern Environment for Automation and Data Analysis</a>,
+which you can access through the
+<a href="https://learning-oreilly-com.eznvcc.vccs.edu/home/">O'Reilly for
+Higher Education</a> account that NVCC provides you.
+</p>
+</div>
+
+<h2>Goals for Week 1</h2>
+<div>
+<p>
+Our main tasks for this week will be to gain access to to the educational
+resources we will need, setup our development environments, and go through a (hopefully basic) Excel exercise.
+</p>
+</div>
+
+<section>
+<h2>Wednesday, August 28th</h2>
+<h3>Classwork</h3>
+<div>
+I'll start today by introducing myself and going through the class syllabus and expectations. I hope to keep this part brief, after that, we'll move into some less-structured practice and setup.
+
+<ol>
+<li>if you don't yet have one, create and account for yourself on either <a href="https://github.com/">GitHub</a> or
+<a href="https://codeberg.org/">Codeberg</a>.  Then create a new repository
+named <code>ite140</code>. Throw a simple README file in there, and a simple index.html. Host this repo through github pages.</li>
+
+<li>Pre-assessment - I'll use this in-class exercise to get a sense of how comfortable you are with Excel. Open Excel on your computer, and make a simple workbook that satisfies these requirements:
+  <ul>
+    <li>I want to adopt a puppy, and I need to buy all of the accessories that help me care for it. The pet store has <a href="https://oakdome.com/k5/lesson-plans/excel/images/puppy-pet-adoption-price-list.gif">these products available</a>. I have a total budget of $200 to spend.</li>
+    <li>Make a worksheet that contains each of these products and their prices. Next to each product, I would like to be able to enter the quantity that I want to purchase (eg I'll put a 1 next to "Puppy Adoption" because I'm adopting 1 puppy. I might put a 0 next to some options that I can't afford, or a number greater than 1 if I want to buy multiple of something). </li>
+    <li>The worksheet should total the amount that I've spent, and should separately calculate how much is left in my budget.</li>
+    <li>To make it easy to use, color code the amount left in my budget. If I have a positive (or zero) amount left, highlight the cell in green. If I have a negative amount left, highlight the cell in red</li>
+    <li>Presentation is everything in Excel - format the currency values appropriately, make the headers and labels stand out, and make it obvious where the calculated totals are.</li>
+    <li>Help me understand how my budget breaks down by creating a pie chart. Each item should be one wedge, and the sizes of the wedges should show how much total I'm spending on that item.</li>
+  </ul>
+
+</li>
+<li>
+  When you're done, commit this Excel workbook to your git repo and link to it from your index.html. We'll do a few more of these Excel workbooks, so it might be best to make a subdirectory for them.
+</li>
+
+</ol>
+
+<h3>Homework, if needed</h3>
+<div>
+    <p>If you felt very comfortable with today's Excel exercise, then feel free to skip today's assignment</p>
+    <p>If you need more practice with basic Excel, skim through Chapter 1 of this resource: <a href="https://openoregon.pressbooks.pub/beginningexcel19/front-matter/introduction/">Beginning Excel 2019</a></p>
+</div>
+
+</div>
+</section>
+</article>
+
+<footer id="vLinks">
+<hr>
+<a id="vLink1">
+<strong> HTML </strong> Valid! </a> &nbsp; 
+<a id="vLink2">
+<strong> CSS </strong> Valid! </a>
+</footer>
+</body>
+</html>
