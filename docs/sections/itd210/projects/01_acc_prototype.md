@@ -78,7 +78,7 @@ assignments, please speak with me!
 - Tai-Yu and Paula
 - Gabe H and Anania
 - Tomio, Catey, Eleanor
-- Adam, Daniel, Nehe
+- Adam, Daniel, Nehe, Owen
 - Gabe C, Benjamin, Darrin
 - Sean, Madi, Claire
 - Oscar, Bruk, and Raphael
