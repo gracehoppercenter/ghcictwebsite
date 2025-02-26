@@ -57,6 +57,8 @@ To understand the negation of an implication better, run each of the following:
 <li><code>
 ttg_cli.py "['P', 'Q']" -p "['P =&gt; Q', 'P =&gt; ~Q']" -i False
 <code></li><li><code>
+ttg_cli.py "['P', 'Q']" -p "['P =&gt; Q', '~P =&gt; ~Q']" -i False
+<code></li><li><code>
 ttg_cli.py "['P', 'Q']" -p "['P =&gt; Q', '~P or Q']" -i False
 <code></li><li><code>
 ttg_cli.py "['P', 'Q']" -p "['P =&gt; Q', '~P or Q', '~(~P or Q)']" -i False
