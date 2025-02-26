@@ -36,7 +36,6 @@ We meet twice this week, and we will use that time to complete
 Logic and Proofs</a>.
 </p>
 
-<!--
 <section>
 <h2>Thursday, February 27th</h2>
 
@@ -48,11 +47,36 @@ were either A or E, which I suspect reflects those who did or did not work all
 the assigned practice exercises.
 </p><p>
 A few things to discuss:
-</p><ul>
+</p><ol>
 <li>negating an implication</li>
 <li>Luis's elegant solution to problem 2</li>
 <li>Brendan's elegant solution to problem 1</li>
+</ol><p>
+To understand the negation of an implication better, run each of the following:
+</p><ul>
+<li><code>
+ttg_cli.py "['P', 'Q']" -p "['P =&gt; Q', 'P =&gt; ~Q']" -i False
+<code></li><li><code>
+ttg_cli.py "['P', 'Q']" -p "['P =&gt; Q', '~P or Q']" -i False
+<code></li><li><code>
+ttg_cli.py "['P', 'Q']" -p "['P =&gt; Q', '~P or Q', '~(~P or Q)']" -i False
+<code></li><li><code>
+ttg_cli.py "['P', 'Q']" -p "['~(P =&gt; Q)', 'P and ~Q']" -i False
+</code></li>
 </ul><p>
+</p><p>
+Before turning you loose on your homework, I promised to share one a famous
+proof of tremendous importance. Since we have so much to do, rather than
+give you a full presentation, let me just share a two links.
+<a href="https://proofwiki.org/wiki/Rational_Numbers_are_Countably_Infinite">
+Rational Numbers are Countably Infinite</a> presents four different proofs that
+the set of rational numbers and the set of natural numbers are <q>the same
+size</q> in that they can be put in a <b>one-to-one correspondence</b>.
+The Wikipedia page
+<a href="https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument">Cantor's
+diagnonal argument</a> is a proof that the set of real numbers is in some sense
+<i>bigger</i> (infinitely bigger, actually), then the natural numbers and
+integers are.
 </p>
 </div>
 
@@ -64,7 +88,6 @@ Complete the <i>Practice Problems</i> and <i>Additional Exercises</i> from
 </p>
 </div>
 </section>
--->
 
 <section>
 <h2>Tuesday, February 25th</h2>
