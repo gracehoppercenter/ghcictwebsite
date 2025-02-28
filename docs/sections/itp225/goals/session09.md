@@ -16,9 +16,11 @@ And then we'll work together to get everyone's code to work.
 ## Homework
 
 ### Continue Working on our Django Many-to-one code
+
 As always, shoot us an email if you get stuck!
 
 ### Watch Forms Videos
+
 Last class, we asked you to watch Dr. Chuck's first two videos about forms: [https://www.dj4e.com/lessons/dj4e_forms_html](https://www.dj4e.com/lessons/dj4e_forms_html)
 
 - Building HTML Forms
