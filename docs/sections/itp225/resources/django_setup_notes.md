@@ -24,6 +24,9 @@ Activate it with:
 
 [Follow my diff here](https://github.com/MrJonesAPS/django_projects/commit/0419417462e3e70943ffc50e038c85e098a7dbae)
 
+Depending on how your apps are setup, you might also need to edit the `TEMPLATES` dictionary in `settings.py` to add the templates folder under the `DIRS` key.
+
+
 ## Creating a new app
 
 (these instructions are based on our in-class discussion about the `todo` app)
