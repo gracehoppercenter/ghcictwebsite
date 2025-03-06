@@ -20,5 +20,8 @@
     ,{"date": "March03", "session": "10"}
     ,{"date": "March04", "session": "11"}
     ,{"date": "March05", "session": "11"}
-
+    ,{"date": "March06", "session": "12"}
+    ,{"date": "March07", "session": "12"}
+    ,{"date": "March10", "session": "13"}
+    ,{"date": "March11", "session": "13"}
     ]
