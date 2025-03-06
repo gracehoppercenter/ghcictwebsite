@@ -35,7 +35,7 @@ your homepage! This assignment is due next Wednesday (the 12th).
 
 Here's your next reading assignment. Be prepared for a reading quiz next class!
 
-- [Animations](https://edube.org/learn/web-dev-ess-css/transitions-and-interactivity-1https://edube.org/learn/web-dev-ess-css/css-animations)
+- [Animations](https://edube.org/learn/web-dev-ess-css/css-animations)
 - [Creating Animations - Part 1](https://edube.org/learn/web-dev-ess-css/creating-simple-css-animations-part-1)
 - [Creating Animations - Part 2](https://edube.org/learn/web-dev-ess-css/creating-simple-css-animations-part-2)
 
