@@ -45,6 +45,32 @@ Logic and Proofs</a> and begin
 <h3>Classwork</h3>
 <div>
 <p>
+We'll begin class by reviewing the results of Wednesday's test. The grade
+distribution was: <b>A</b>: 
+</p><p>
+We should pay special attention to:
+</p><ol>
+<li>
+<pre>
+$ ttg_cli.py "['P', 'Q', 'R']" -p "['~(~P => (Q and R))', '~P and (~Q or ~R)']" -i False
+
++-------+-------+-------+----------------------+---------------------+
+|   P   |   Q   |   R   |  ~(~P => (Q and R))  |  ~P and (~Q or ~R)  |
+|-------+-------+-------+----------------------+---------------------|
+| True  | True  | True  |        False         |        False        |
+| True  | True  | False |        False         |        False        |
+| True  | False | True  |        False         |        False        |
+| True  | False | False |        False         |        False        |
+| False | True  | True  |        False         |        False        |
+| False | True  | False |         True         |        True         |
+| False | False | True  |         True         |        True         |
+| False | False | False |         True         |        True         |
++-------+-------+-------+----------------------+---------------------+
+</pre>
+</li><li>
+Gabriel C.'s proof for problem 2 using a set theory instead of
+alegraic argument.</li>
+</ol><p>
 We will begin class with a discussion of the three <i>Reading Questions</i>
 at the end of the section.
 </p>
@@ -54,11 +80,18 @@ at the end of the section.
 When working with graphs, we need to understand what it means to
 <q>be a graph</q>. The definition of <b>graph</b> is:
 </p><blockquote>
-an ordered pair G = (V, E) consisting of a nonempty set V (called the vertices) and a set E (called the edges) of two-element subsets of V.
+An ordered pair G = (V, E) consisting of a nonempty set V (called the vertices) and a set E (called the edges) of two-element subsets of V.
 </blockquote><p>
 Graphs are <b>equal</b> when V and E are equal, but when we talk about
 <q>more than one graph</q> we are interested in the concept of
-<b>isomorphism</b>.
+<b>isomorphism</b>:
+</p><blockquote>
+An isomorphism between two graphs G1 and G2 is a bijection f: V1 -> V2 between
+the vertices of the graphs such that {a, b} is an edge in G1 if and only if
+{f(a), f(b)}  is an edge in G2.
+</blockquote><p>
+What we are really asking here is: <q>Is there more than one <b>isomorphism
+class</b> with 5 vertices and 6 edges?</q>
 </p>
 
 <h4>A graph with 10 vertices of degree 4 has how many edges?</h4>
