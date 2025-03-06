@@ -16,6 +16,8 @@ transitions two ways:
 - In the nav bar, the colors change when you hover over them
 - In the blog post gallery below, the images grow when you hover over them
 
+I also added a transition to [my canvas self portrait here](https://cjonesexample.github.io/)
+
 Your assignment is to add a thoughtful, helpful transition somewhere on your homepage.
 No need to write or submit anything from this assignment - I'll see it on
 your homepage! This assignment is due next Wednesday (the 12th).
