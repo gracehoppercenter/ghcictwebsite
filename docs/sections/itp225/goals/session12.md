@@ -13,5 +13,7 @@ more time we'll need.
 ### Watch Dr Chuck's Videos about Many to Many models
 [Lesson 27](https://www.dj4e.com/lessons/dj4e_many)
 
+For now, only the first two videos: 'Many to Many Overview' and 'A Simple Many-To-Many Example in Django'
+
 As always, come prepared next class for a (possible) reading quiz. And start
 thinking about potential many-to-many models that you could include in your project.
