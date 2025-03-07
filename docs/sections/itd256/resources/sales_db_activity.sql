@@ -12,9 +12,9 @@ CREATE INDEX idx_category_name ON products (category, name);
 --add a bunch of products
 INSERT INTO products (name, category, price, stock_quantity)
 SELECT
-    'Product' || generate_series(1, 10000),
+    'Product' || generate_series,
     CASE WHEN random() < 0.5 THEN 'Electronics' ELSE 'Clothing' END,
-    round(random() * 500 + 10, 2),
+    round((random() * 500 + 10)::numeric, 2),
     floor(random() * 100) + 1
 FROM generate_series(1, 10000);
 
@@ -53,8 +53,6 @@ SELECT relname, n_live_tup, n_dead_tup
 FROM pg_stat_user_tables 
 WHERE relname = 'products';
 
-
-
 --create a sales table
 
 
@@ -70,7 +68,7 @@ CREATE TABLE sales (
 INSERT INTO sales (sale_date, amount)
 SELECT 
     '2022-01-01'::DATE + (random() * 365)::INT,
-    round(random() * 500 + 50, 2)
+    round((random() * 500 + 50)::numeric, 2)
 FROM generate_series(1, 10000);
 
 --take a look at the histograms
@@ -99,7 +97,8 @@ FOR VALUES FROM ('2023-01-01') TO ('2024-01-01');
 INSERT INTO sales_partitioned (sale_date, amount)
 SELECT 
     '2022-01-01'::DATE + (random() * 365)::INT,
-    round(random() * 500 + 50, 2)
+    round((random() * 500 + 50)::numeric, 2)
 FROM generate_series(1, 10000);
 
---run some queries
+--EXPLAIN some queries to explore whether they use
+--the index
