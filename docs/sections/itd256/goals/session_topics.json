@@ -9,4 +9,5 @@
   ,{"session": "08", "unit": 1, "topic": "Project Work"}
   ,{"session": "09", "unit": 1, "topic": "Presentations"}
   ,{"session": "10", "unit": 2, "topic": "Indexes"}
+  ,{"session": "11", "unit": 2, "topic": "Index Tuning"}
 ]
