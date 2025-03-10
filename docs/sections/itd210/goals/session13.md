@@ -14,7 +14,7 @@ We'll start with a reading quiz about CSS animation
 We now have the power to make some pretty cool content using only CSS.
 We'll quickly compare how we create drawings with  CSS  vs with Canvas.
 
-Then we'll work through this animation tutorial: [https://codehs.com/tutorial/mattarnold/css-art](https://codehs.com/tutorial/mattarnold/css-art). You'll probably want to reference this page as you're working on it: [CSS Art Code Snippets](https://css-art-snippets-1-6200438.codehs.me/index.html)
+Then we'll work through this animation tutorial: [https://codehs.com/tutorial/mattarnold/css-art](https://codehs.com/tutorial/mattarnold/css-art). You'll probably want to reference this page as you're working on it: [CSS Art Code Snippets](https://css-art-snippets-1-6200438.codehs.me/index.html).  Here's another great reference about css shapes: [The shapes of CSS](https://css-tricks.com/the-shapes-of-css/)
 
 There are a few things about their sample code that i don't love (it isn't even valid HTML!), so I've created my own version here:
 - [emoji.html](https://github.com/CJonesExample/CJonesExample.github.io/blob/main/emoji.html)
