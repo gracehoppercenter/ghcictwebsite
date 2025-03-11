@@ -1,3 +1,15 @@
+## B Day Class - Read this First!
+
+I've been poisoned! I took a chance on some expired hummus last night, and that was not a good idea. I'm out sick today.
+
+...Which is a shame - I really like CSS Animations and I'm excited about today's activity. Let's skip the reading quiz for today and you can work through the activity on your own.
+
+We're working toward a unit test next Tuesday. Feel free to start reviewing and preparing a cheat sheet.
+
+On Thursday we'll take today's reading quiz and I'll have some review activities and a list of topics for the test.
+
+As always, shoot me an email if you need anything from me!
+
 ## Lesson Objectives
 By the end of this lesson, you should:
 
