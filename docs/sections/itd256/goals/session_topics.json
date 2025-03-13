@@ -11,4 +11,5 @@
   ,{"session": "10", "unit": 2, "topic": "Indexes"}
   ,{"session": "11", "unit": 2, "topic": "Index Tuning"}
   ,{"session": "12", "unit": 2, "topic": "pg_stats"}
+  ,{"session": "13", "unit": 2, "topic": "Join Operators"}
 ]
