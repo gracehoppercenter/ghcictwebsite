@@ -34,6 +34,8 @@ Your assignment today is to replicate that setup.
 Be sure to test it out using Responsive Design Mode, and to use
 the `viewport` tag to setup the pixels.
 
+[You can see my example here](file:///home/work/Documents/code/CJonesExample.github.io/index.html)
+
 
 ### Looking Ahead: Start preparing for the WDE Exam
 
