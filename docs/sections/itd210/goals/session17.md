@@ -29,7 +29,7 @@ To see what a failing report looks like, [here's what it says about my `cjonesex
 
 Our certification test is right around the corner! We'll use our Markdown journals to create and follow a study plan.
 
-For today, copy/paste this template into your own journal, and then follow the instructions to fill in the `confidence` column.
+For today, [copy/paste this template into your own journal](https://github.com/CJonesExample/CJonesExample.github.io/blob/d741c9d6e7cbe1fc08284d9b69600c64afb79b4c/journal/entries/exam_prep.md), and then follow the instructions to fill in the `confidence` column.
 
 You should start reviewing any topics that you gave a low score to, and we'll start systematically working through this next class.
 
