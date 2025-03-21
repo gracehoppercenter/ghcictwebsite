@@ -37,26 +37,52 @@ This week we will finish our study of <b>queues</b> and <b>priority queues</b>.
 <section>
 <h2>Friday, March 21st</h2>
 
-<h3>Classwork</h3>
+<h3>Classwork / Homework</h3>
 <div>
 <p>
 We'll get back our quizzes on priority queues and go over them.
 </p><p>
-Then we'll the discuss the assigned exercises, and briefly introduce our next
-ADT, the
-<a href="https://en.wikipedia.org/wiki/Tree_(abstract_data_type)">tree</a>.
+You will have the rest of class time and homework time to work in your quueue
+groups on the following project.
 </p>
 </div>
 
-<h3>Homework</h3>
-<div>
+<h3>RGThing Priority Queues</h3>
 <p>
-Since I have more work to do on the trees chapter before I can assign it to
-you, you have no homework today.  Use the time wisely, to catch up on other
-classes perhaps, so you are ready to devote the time that will be needed to
-the facinating topic we will be studying beginning next week.
+Given the following:
+</p><pre>
+enum Color {RED, GREEN};
+
+struct RGThing {
+    Color color; 
+    string label;
+};
+
+struct RGTpair {
+    RGThing thing1;
+    RGThing thing2;
+};
+</pre><p>
+Create a <code>RGTPQ</code> class implements a priority queue of
+<code>RGThings</code> with the following member functions:
+</p><ul>
+<li><code>bool empty();</code></li>
+<li><code>void insert(RGThing);</code></li>
+<li><code>RGTpair remove();</code></li>
+</ul><p>
+<code>RGThing</code>s can be inserted (using the <code>insert(RGThing)</code>
+member function) as they arrive, and they are removed from the
+<code>RGTPQ</code> using a FIFO disciplin, except for the following additional
+requirement: the <code>remove()</code> member function returns an
+<code>RGTpair</code> with one <code>RED</code> and one <code>GREEN</code>
+<code>RGThing</code>.
+</p><p>
+This means that <code>RGTPQ</code> has to implement a <i>hybrid</i> discipline,
+since if it is filled with only <code>RED</code> <code>RGThing</code>s, no
+pair can be removed.  The first <code>GREEN</code> <code>RGThing</code> that
+enters the queue will thus have to be given a priority discipline that moves
+it to the front of the queue.
 </p>
-</div>
 </section>
 
 <section>
