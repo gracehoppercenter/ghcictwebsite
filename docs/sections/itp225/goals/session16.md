@@ -15,7 +15,7 @@ We'll also discuss that these classes won't always be necessary or helpful. I'll
 drawing that I've used in my own project to help keep track of which views 
 require 'User' restrictions and which don't.
 
-[You can see my drawing here](images/pnp_view_planning.jpg), and the views with the purple
+[You can see my drawing here](../images/pnp_view_planning.jpg), and the views with the purple
 dots are the ones where I'm currently planning to use Dr. Chuck's 'User' views.
 
 I won't require that you make a planning diagram like this, but I'll strongly recommend it =).
