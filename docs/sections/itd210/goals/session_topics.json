@@ -16,6 +16,7 @@
   ,{"session": "15", "unit": 2, "topic": "Unit 2 Test"}
   ,{"session": "16", "unit": 3, "topic": "Media Queries"}
   ,{"session": "17", "unit": 3, "topic": "Accessibility, Exam Prep"}
+  ,{"session": "18", "unit": 3, "topic": "Exam Prep"}
   ,{"session": "WDEExam", "unit": 0, "topic": "WDE EXAM DAY"}
   ,{"session": "WDEExam - 2nd attempt", "unit": 0, "topic": "WDE EXAM DAY - 2nd attempt"}
 ]
