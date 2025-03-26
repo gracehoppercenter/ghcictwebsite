@@ -52,4 +52,4 @@ that Django created for you.
 
 ## Homework
 
-### Finish your classwork activity
+No Homework! We'll keep working on this in class on Wednesday

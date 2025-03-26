@@ -14,4 +14,5 @@
   ,{"session": "13", "unit": 2, "topic": "Join Operators"}
   ,{"session": "14", "unit": 3, "topic": "Intro to Django ORM"}
   ,{"session": "15", "unit": 3, "topic": "Django ORM - Practice"}
+  ,{"session": "16", "unit": 3, "topic": "Django ORM - Faker"}
 ]
