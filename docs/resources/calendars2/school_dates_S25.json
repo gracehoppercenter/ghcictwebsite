@@ -82,7 +82,7 @@
 
     
     {"date":"May05","day":"A"},
-    {"date":"May06","day":"B - Testing (no classes)"},
+    {"date":"May06","day":"Testing (no classes)"},
     {"date":"May07","day":"A"},
     {"date":"May08","day":"B"},
     {"date":"May09","day":"A"},
@@ -95,11 +95,11 @@
     {"date":"May16","day":"B"},
 
     
-    {"date":"May19","day":"A"},
-    {"date":"May20","day":"B"},
-    {"date":"May21","day":"A"},
+    {"date":"May19","day":"A - SOL Day No CTE Busses"},
+    {"date":"May20","day":"A - SOL Day No CTE Busses"},
+    {"date":"May21","day":"B"},
     {"date":"May22","day":"B"},
-    {"date":"May13","day":"A"},
+    {"date":"May23","day":"A - Last Day for AT Seniors"},
     
     {"date":"May26","day":"School Holiday"},
     {"date":"May27","day":"B"},
@@ -118,13 +118,13 @@
     {"date":"June09","day":"A"},
     {"date":"June10","day":"B"},
     {"date":"June11","day":"A"},
-    {"date":"June12","day":"B"},
-    {"date":"June13","day":"A"},
+    {"date":"June12","day":"B - Last CTE Bus Day"},
+    {"date":"June13","day":"Finals - Early Release"},
 
     
-    {"date":"June16","day":"B"},
-    {"date":"June17","day":"A"},
-    {"date":"June18","day":"Last Day of School"},
+    {"date":"June16","day":"Finals - Early Release"},
+    {"date":"June17","day":"Finals - Early Release"},
+    {"date":"June18","day":"Last Day - Early Release"},
     {"date":"June19","day":"School Holiday"},
     {"date":"June20","day":"Summer"},
     {"date":"June23","day":"Summer"},
