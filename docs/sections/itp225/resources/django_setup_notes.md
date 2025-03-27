@@ -20,6 +20,14 @@ Activate it with:
 
 `% source .venv/bin/activate`
 
+
+## Start a brand new Django App
+
+First you'll need to install django into your virtual environment, then run:
+
+`django-admin startproject project_name`
+
+
 ## Setup Template Inheritance
 
 [Follow my diff here](https://github.com/MrJonesAPS/django_projects/commit/0419417462e3e70943ffc50e038c85e098a7dbae)
@@ -29,7 +37,8 @@ Depending on how your apps are setup, you might also need to edit the `TEMPLATES
 
 ## Creating a new app
 
-(these instructions are based on our in-class discussion about the `todo` app)
+These instructions are based on our in-class discussion about the `todo` app. You'll need to modify them based on your app name. If you aren't sure what to call it, I like the name `core`:
+
 1. Create a new app: `manage.py startapp`
 2. Register our app in `settings.py`
 3. Write our models in `todo/models.py`
