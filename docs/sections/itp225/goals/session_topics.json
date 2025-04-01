@@ -10,12 +10,13 @@
   ,{"session": "09", "unit": 1, "topic": "ACC Project FK Models"}
   ,{"session": "10", "unit": 1, "topic": "A Full Application"}
   ,{"session": "11", "unit": 1, "topic": "Pairing Our Path Forward"}
-  ,{"session": "12", "unit": 1, "topic": "CRUD Project Work"}
-  ,{"session": "13", "unit": 1, "topic": "CRUD Project Work"}
-  ,{"session": "14", "unit": 1, "topic": "CRUD Project - Add Many-To-Many"}
-  ,{"session": "15", "unit": 1, "topic": "CRUD Project - Login"}
-  ,{"session": "16", "unit": 1, "topic": "CRUD Project - Owned Rows"}
-  ,{"session": "17", "unit": 1, "topic": "CRUD Project - Wrap-up"}
-  ,{"session": "18", "unit": 1, "topic": "CRUD Project - Wrap-up"}
-  ,{"session": "19", "unit": 1, "topic": "CRUD Project Finale, Start Django Projects"}
+  ,{"session": "12", "unit": 2, "topic": "CRUD Project Work"}
+  ,{"session": "13", "unit": 2, "topic": "CRUD Project Work"}
+  ,{"session": "14", "unit": 2, "topic": "CRUD Project - Add Many-To-Many"}
+  ,{"session": "15", "unit": 2, "topic": "CRUD Project - Login"}
+  ,{"session": "16", "unit": 2, "topic": "CRUD Project - Owned Rows"}
+  ,{"session": "17", "unit": 2, "topic": "CRUD Project - Wrap-up"}
+  ,{"session": "18", "unit": 2, "topic": "CRUD Project - Wrap-up"}
+  ,{"session": "19", "unit": 2, "topic": "CRUD Project Finale, Start Django Projects"}
+  ,{"session": "20", "unit": 3, "topic": "ACC Project Kickoff"}
 ]
