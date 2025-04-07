@@ -16,4 +16,6 @@
   ,{"session": "15", "unit": 3, "topic": "Django ORM - Practice"}
   ,{"session": "16", "unit": 3, "topic": "Django ORM - Faker"}
   ,{"session": "17", "unit": 3, "topic": "Faker, PGAdmin"}
+  ,{"session": "18", "unit": 3, "topic": "Django ORM Query Optimization"}
+  ,{"session": "19", "unit": 3, "topic": "Django ORM Query Optimization"}
 ]
