@@ -2,4 +2,4 @@
 
 ### Continue Activities From Last Time
 
-[Seem the details here](session.html?num=18)
+[See the details here](session.html?num=18)
