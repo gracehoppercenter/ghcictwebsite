@@ -1,51 +1,34 @@
 ## What We'll Do In Class
 
 ### WDE Exam Debrief
-Don't forget to schedule your retake! I'm expecting that 17 people will plan
-retakes, and so far I've only heard from 1!
 
-See the note at the top of [last class](session.html?num=20) for the instructions.
+Congrats to everyone who passed the test - I'm really proud of you all, and you should be proud too!
+
+For those who did not pass, I have a new plan for retakes. I really want you to pass on your second attempt and don't want to rush you.  So here is my new plan:
+
+- I already put your current exam score in the gradebook as a Q3 grade.
+- If you retake the exam before the end of April and get a better score, I'll update your grade in the gradebook
+    - If that changes your Q3 grade, I can't promise that I'll be able to get your Q3 grade officially changed, but I'll try
+    - Regardless, I'll include the new score when I calculate your final grade for the year and for NOVA ITD 210
+
+Because of this new scheme, I'm not going to schedule a whole-class retake next week. I'd rather that you each take the time that you need to review, and schedule your retake individually.
+
+To schedule your retake, email Jeff Elkner (<jde232@email.vccs.edu>) and cc me (<cmj2310@email.vccs.edu>) and suggest some times that work for you. Here are the times that usually work well for Jeff:
+- Any day before school. Jeff usually gets here at about 6am
+- Any day during 3rd or 5th period (for non-ACC folks, that's 10-1130, 130-3)
+
+If you go to another school and have trouble getting here outside of our regular class time, talk to me. We might be able to find someone at your home school who can proctor for us.
 
 ### Grades
 
-Your grades are finalized for Q3. Let me know if you have questions about them!
+I think your grades are finalized for Q3. Let me know if you have questions about them!
 
-### Reading Quiz: Javascript Module 1
+### Looking Ahead
 
-### Activity: Javascript Functions
-We learned two functions last time, `alert()` and `log()`. Today we'll
-work on creating our own functions. We'll write a few simple functions together.
+Now that we're certified experts in HTML and CSS, we'll move on to the third part of the trifecta - JavaScript =). There's a new Edube course for this: <https://edube.org/study/jse1>. 
 
-### Classwork: Javascript Functions for Canvas
-My plan for the next several classes is that we'll use the HTML canvas to 
-practice the techniques we're learning in Javascript.
-
-For today's activity, start with the same starter code that I gave you 
-for the self portrait activity in [session 11](session.html?num=11). Modify that
-code as follows:
-- Create a function that draws a circle on the canvas. You can choose the color
-and radius of the circle, but the `x,y` coordinates for the circle's center
-should be inputs to the function.
-- Call that function 5 times to draw 5 different circles on the screen.
+Today, I'd like you to register for this new Edube course and start going through Module 1 - you should pretty much already know most of this, and we'll chat about the highlights in class.
 
 ## Homework - if needed
-Our quiz format is going to change for the next few classes. Instead of a reading
-quiz, I'll ask you to review the concepts that we've practice, and I'll give you
-a short coding quiz.
 
-So for this quiz, practice with functions. 
-We'll have a short quiz on functions next class.
-
-Here's an example question that might be on that quiz (this one is tricky - 
-pay attention to the spaces!!)
-
-```
-What would this javascript code print to the console?
-
-function a(x){
-    console.log("hello" + x);
-}
-
-a("chris")
-a("bob")
-```
+Finish going through Module 1 - we'll have a reading quiz next class. This quiz will be our first grade for Q4.
