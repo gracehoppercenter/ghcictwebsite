@@ -21,5 +21,6 @@
   ,{"session": "20", "unit": 3, "topic": "Final Exam Review"}
   ,{"session": "21", "unit": 4, "topic": "Exam Debrief, Look Ahead"}
   ,{"session": "22", "unit": 4, "topic": "Functions"}
+  ,{"session": "23", "unit": 4, "topic": "Functions Calling Functions"}
   ,{"session": "WDEExam", "unit": 0, "topic": "WDE EXAM DAY"}
 ]
