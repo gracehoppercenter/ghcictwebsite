@@ -22,5 +22,11 @@
   ,{"session": "21", "unit": 4, "topic": "Exam Debrief, Look Ahead"}
   ,{"session": "22", "unit": 4, "topic": "Functions"}
   ,{"session": "23", "unit": 4, "topic": "Functions Calling Functions"}
+  ,{"session": "24", "unit": 4, "topic": "Animation, Variables, Conditionals"}
+  ,{"session": "25", "unit": 4, "topic": "Objects and Event Handlers"}
+  ,{"session": "26", "unit": 4, "topic": "Collisions, Introduce Game Project"}
+  ,{"session": "27", "unit": 4, "topic": "Work on Game Project"}
+  ,{"session": "28", "unit": 4, "topic": "Work on Game Project/Review"}
+  ,{"session": "29", "unit": 4, "topic": "Unit 4 Test / Finish Project"}
   ,{"session": "WDEExam", "unit": 0, "topic": "WDE EXAM DAY"}
 ]

@@ -43,6 +43,27 @@
     ,{"date": "April09", "session": "22"}
     ,{"date": "April10", "session": "23"}
     ,{"date": "April11", "session": "23"}
+
+    ,{"date": "April22", "session": "24"}
+    ,{"date": "April23", "session": "24"}
+
+    ,{"date": "April24", "session": "25"}
+    ,{"date": "April25", "session": "25"}
+
+    ,{"date": "April28", "session": "26"}
+    ,{"date": "April29", "session": "26"}
+
+    ,{"date": "April30", "session": "27"}
+    ,{"date": "May01", "session": "27"}
+
+    ,{"date": "May02", "session": "28"}
+    ,{"date": "May05", "session": "28"}
+
+    ,{"date": "May07", "session": ""}
+
+    ,{"date": "May08", "session": "29"}
+    ,{"date": "May09", "session": "29"}
+
     ,{"date": "April02", "session": "WDEExam"}
     ,{"date": "April03", "session": "WDEExam"}
     ]
