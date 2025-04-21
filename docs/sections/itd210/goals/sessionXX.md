@@ -1,19 +1,24 @@
 ## Lesson Objectives
 By the end of this lesson, you should:
-
+- **Understand** The importance of responsive web pages
+- **Be able to** use media queries to customize CSS grid for different screen sizes
+- **Be able to** use named regions in CSS grid to create responsive layouts
 
 ## What We'll Do In Class
 
 ### Quiz
 
+### Warmup Activity
+description
+
+### Activity
+description
+
 
 ## Homework
 
-### Send me an Email
-If you haven't yet, please continue checking the myNVCC website. As soon as you see a gmail account appear, open it and send me an email. Follow the specific instructions from [Session 2](./session.html?num=02).
+### Reading Assignment
+Description
 
-If you're still working to get into your myVCCS account, follow the instructions from [Session 1](./session.html?num=01).
-
-### Practice with Vim and Git
 
 ## Useful Resources For Today's Class
