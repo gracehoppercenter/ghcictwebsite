@@ -35,7 +35,12 @@ examples of cases where ORMs create sub-optimal queries plans. We'll try to find
 some of these, quantify the impact, and optimize them:
 - The first example was in the page about [Case-insensitive Search](https://use-the-index-luke.com/sql/where-clause/functions/case-insensitive-search) (See the box titled "Warning"
 about half way down the page).
+    - Here's a nice page about how to do this in Django: [How to query case insensitive data in Django ORM](https://www.geeksforgeeks.org/how-to-query-case-insensitive-data-in-django-orm/)
 - The second example was in the [Nested Loops Join N+1 Problem](https://use-the-index-luke.com/sql/join/nested-loops-join-n1-problem).
+
+The first step of this assignment is to reproduce both of these. We'll work on 
+correcting them on Thursday!
+
 
 
 ## Homework
