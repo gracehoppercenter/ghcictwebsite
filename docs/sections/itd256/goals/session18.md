@@ -48,3 +48,15 @@ plan that it produces and make sure you understand it.
 
 Repeat this process until you find one of each example: a sequential scan, index
 scan, and index-only scan. Write a Markdown file that includes the Django ORM code, the sql query, and a screenshot from PGAdmin for each.
+
+#### Hints:
+- Django Querysets are lazy, so you might need to write some extra code that tries to read the data from the queryset [See the official documentation about this here](https://docs.djangoproject.com/en/5.1/topics/db/queries/#querysets-are-lazy). here's an example:
+```python
+# If I just run this first line, 
+#it won't actually run any sql
+allPlaces = Place.objects.all()
+
+##this line makes the sql run
+print(f"{len(allPlaces)}")
+```
+- For the index-only scan, we've found that this query plan is more likely to appear if the query includes a filter where the index will help limit the number of records that are accessed.
