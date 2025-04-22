@@ -18,4 +18,5 @@
   ,{"session": "17", "unit": 3, "topic": "Faker, PGAdmin"}
   ,{"session": "18", "unit": 3, "topic": "Django ORM Query Optimization"}
   ,{"session": "19", "unit": 3, "topic": "Django ORM Query Optimization"}
+  ,{"session": "20", "unit": 3, "topic": "Use the Index, Django!"}
 ]
