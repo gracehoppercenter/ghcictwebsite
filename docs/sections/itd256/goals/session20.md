@@ -35,16 +35,36 @@ examples of cases where ORMs create sub-optimal queries plans. We'll try to find
 some of these, quantify the impact, and optimize them:
 - The first example was in the page about [Case-insensitive Search](https://use-the-index-luke.com/sql/where-clause/functions/case-insensitive-search) (See the box titled "Warning"
 about half way down the page).
-    - Here's a nice page about how to do this in Django: [How to query case insensitive data in Django ORM](https://www.geeksforgeeks.org/how-to-query-case-insensitive-data-in-django-orm/)
 - The second example was in the [Nested Loops Join N+1 Problem](https://use-the-index-luke.com/sql/join/nested-loops-join-n1-problem).
 
-The first step of this assignment is to reproduce both of these. We'll work on 
-correcting them on Thursday!
+To investigate these two cases, follow these steps:
 
+1. Select one of our tables that has a column with a varchar data type, and add an index to that column. (in your `models.py`, just add the argument `db_index=True`
+to the column)
+2. Go to PGAdmin and take a look at the indexes on that table. You might be 
+surprised to find that it actually created two indexes. Do some googling about the
+difference, and write two sql queries, one that results in an index scan using
+each of the two indexes.
+3. Go back to Django and write some ORM code that will result in an index-only
+scan using either of those new indexes. This code will look very similar to 
+your last assignment.
+4. Write a new ORM query that uses case-insensitive search. Here's a nice page about how to do this in Django: [How to query case insensitive data in Django ORM](https://www.geeksforgeeks.org/how-to-query-case-insensitive-data-in-django-orm/)
+. As you're reading this page, notice that this page makes no mention of the performance impact!
+5. Run both queries, grab them from the logs, copy/paste them into the PGAdmin,
+and confirm that you're getting the query plans you expected.
+6. Turn off logs in Django for this next part. We're about to generate tons of queries and logging will slow this process down. In `settings.py`, comment out
+the line that says `"handlers": ["file", "console"],`.
+7. Fill in your queries into [my starter code for this activity](https://github.com/MrJonesAPS/orm/blob/main/03_ORM_Limitations.py). We'll talk through this code together. 
+8. Repeat this process several times times, using your Faker code to change the table size. Capture the runtime differences when the tables have 100 records, 1000 records, 10000 records, 100000 records (and more if you have time). (spoiler: the results should align with figure 3.2 on this page: https://use-the-index-luke.com/sql/testing-scalability/data-volume, which we discussed last unit).
+9. Write all this up! Your Markdown file should include:
+    - A discussion of the two indexes that Django added, and the queries that use them.
+    - A comparison of the query plans generated when you use/don't use `__iexact`.
+    - The results of your runtime investigation, formatted into a table
+    - A short summary of the takeaways of this activity. Specifically, what additional warnings would you give to Django developers who are considering
+    using the `__iexact` feature in their ORM code?
 
 
 ## Homework
 
-We'll move on from these ORM activities this week. No pressure yet, 
-but you might want to start thinking
-about working on them outside of class if you think you'll need more time.
+Next week we're moving on to a new topic. If you're still working on today's 
+activity, continue it outside of class!
