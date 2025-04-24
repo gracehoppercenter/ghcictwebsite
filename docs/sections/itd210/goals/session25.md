@@ -46,6 +46,7 @@ to review each of these.
 
 ## Useful Resources For Today’s Class
 
+- [My final code, including comments explaining the concepts we discussed in class](https://github.com/CJonesExample/CJonesExample.github.io/blob/main/js_canvas_art/animation_with_player.js)
 - [MDN: `keydown` and `keyup`](https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event)
 - [MDN: Objects in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 - [MDN: Canvas Reference](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
