@@ -19,4 +19,7 @@
   ,{"session": "18", "unit": 3, "topic": "Django ORM Query Optimization"}
   ,{"session": "19", "unit": 3, "topic": "Django ORM Query Optimization"}
   ,{"session": "20", "unit": 3, "topic": "Use the Index, Django!"}
+  ,{"session": "21", "unit": 3, "topic": "Use the Index, Django!"}
+  ,{"session": "22", "unit": 3, "topic": "Use the Index, Django!"}
+  ,{"session": "23", "unit": 4, "topic": "New Unit: ACID Properties"}
 ]
