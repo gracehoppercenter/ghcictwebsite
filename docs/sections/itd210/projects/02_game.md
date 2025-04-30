@@ -5,7 +5,7 @@ Using JavaScript and the Canvas API, create a simple game that meets the followi
 
 - **Visual Design:**
   - Your game should look nice.
-  - Use several shapes and colors.
+  - Use at least one rectangle, one circle, and one other shape
 
 - **Gameplay Mechanics:**
   - Include a way to track the game state and keep score.
@@ -16,29 +16,37 @@ Using JavaScript and the Canvas API, create a simple game that meets the followi
 
 - **HTML**
   - Your project should be presented on an HTML page. The page should
-  introduce your game and explain how to play.
+  include text that introduces your game and explains how to play.
 
 ### Bonus Opportunities
-If you want more of a challenge, I have tons of ideas! Here are a few:
+If you want more of a challenge, I have tons of ideas and I'm happy to chat
+about them! Here are a few:
 
 - Add levels to your game.
+- Interact with other things on your HTML page, like forms and buttons.
 - Use animated sprites.
 - Make your game multiplayer.
-- Track high scores across games.
+- Track high scores across plays.
 
 ### Process
 We'll take a few class periods to work on this project, and will have deliverables
 in three steps:
 
-#### Deliverable 1: Game Concept Journal Entry
+#### Deliverable 1: Game Concept (Markdown Journal Entry)
 Create a journal entry in Markdown format. There are no length requirements
 , but you must answer the following questions:
 
 - What genre will your game be?
-- What will your game look like?
-- What art will you use?
+- What are the objectives? Will there be a score? How do you win or lose?
 - How will the player interact with the game?
 - What features will you include in your MVP?
+- Make some concept art - in an HTML/JS canvas, generate a (still) image that will 
+represents one frame of your game. (you might choose to sketch this out on paper
+first, but only the HTML version needs to be submitted)
+
+I'll review these game concepts and give feedback. Some proposals will be easier
+than others, so my feedback will focus on making sure that your project is reasonably
+challenging.
 
 #### Deliverable 2: MVP
 You'll create your "Minimum Viable Product", the simplest possible version of 
@@ -55,13 +63,12 @@ You are allowed to re-implement an existing game (such as Donkey Kong, Space Inv
 
 You should NOT use generative AI tools to write your code for this game.
 It's obviously hard for me to prove whether or not you violate this rule, but:
-- Your github commit log should make it clear that you've developed your code
-in stages
+- Your github commit log should make it clear that you've done your work in steps
 - I reserve the right to ask you to explain how your code works, and to refuse
 to accept code that you can't explain
 
-If you're eager to use generative AI for a project, just wait! I have some
-ideas for our final project =)
+If you're eager to use generative AI for a project, just wait! I have some ideas
+for our final project.
 
 ### Need Inspiration?
 - **List of Game Genres:** [iD Tech Game Genres](https://www.idtech.com/blog/different-types-of-video-game-genres)
