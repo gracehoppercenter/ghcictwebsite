@@ -25,6 +25,6 @@ We'll play with `Math.random()` to make our game a little more interesting.
 
 ### Start Brainstorming For Your Project
 
-Here's what I have so far: [../projects/project.html?id=02_game]. We'll talk 
+[Here's what I have so far](../projects/project.html?id=02_game). We'll talk 
 through these requirements. I still owe you specific deadlines and the rubric,
 but you should start brainstorming and working on the journal entry.
