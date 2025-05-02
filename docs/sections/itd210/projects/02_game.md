@@ -80,6 +80,8 @@ for our final project.
   - [Pac-Man Example](https://academy.cs.cmu.edu/sharing/aliceBlueCat1044)
   - [Wordle Example](https://academy.cs.cmu.edu/sharing/fuchsiaSeal2901)
 
+- Here's a nice reference for drawing on Canvas: <https://www.w3schools.com/graphics/canvas_intro.asp>
+
 ### Rubric
 
 coming soon...
