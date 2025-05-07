@@ -59,10 +59,19 @@
     ,{"date": "May02", "session": "28"}
     ,{"date": "May05", "session": "28"}
 
-    ,{"date": "May07", "session": ""}
+    ,{"date": "May07", "session": "28"}
 
     ,{"date": "May08", "session": "29"}
     ,{"date": "May09", "session": "29"}
+
+    ,{"date": "May12", "session": "30"}
+    ,{"date": "May13", "session": "30"}
+
+    ,{"date": "May14", "session": "31"}
+    ,{"date": "May15", "session": "31"}
+
+    ,{"date": "May16", "session": "32"}
+    ,{"date": "May19", "session": "32"}
 
     ,{"date": "April02", "session": "WDEExam"}
     ,{"date": "April03", "session": "WDEExam"}

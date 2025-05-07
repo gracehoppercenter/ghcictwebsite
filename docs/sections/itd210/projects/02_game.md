@@ -32,7 +32,7 @@ about them! Here are a few:
 We'll take a few class periods to work on this project, and will have deliverables
 in three steps:
 
-#### Deliverable 1: Game Concept (Markdown Journal Entry)
+#### Deliverable 1: Game Concept (Markdown Journal Entry)  (Due EOD Friday May 9)
 Create a journal entry in Markdown format. There are no length requirements
 , but you must answer the following questions:
 
@@ -48,12 +48,12 @@ I'll review these game concepts and give feedback. Some proposals will be easier
 than others, so my feedback will focus on making sure that your project is reasonably
 challenging.
 
-#### Deliverable 2: MVP
+#### Deliverable 2: MVP  (Due EOD Thursday, May 15)
 You'll create your "Minimum Viable Product", the simplest possible version of 
 your game that you can imagine. For your MVP, you'll focus on just a few features
 like the user input.
 
-#### Deliverable 3: Final Game
+#### Deliverable 3: Final Game (Due EOD Friday, May 23)
 After your MVP is complete, you'll add features that make your game prettier,
 more functional, and more engaging.
 
