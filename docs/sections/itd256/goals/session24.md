@@ -61,12 +61,12 @@ in class all year.
 (The specific technologies I'm recommending here are just recommendations. 
 You're welcome to investigate and choose others in the same category)
 
-- Document Storage / NoSQL: MongoDB
-- Graph Database: Neo4j
-- Cloud/Realtime Database: Firebase
-- Distributed SQL: CockroachDB
-- In-Memory Database: Redis
-- Vector Database: Weaviate
+- Document Storage / NoSQL: MongoDB (Adam)
+- Graph Database: Neo4j (Lehiem)
+- Cloud/Realtime Database: Firebase (Jack)
+- Distributed SQL: CockroachDB (Alex)
+- In-Memory Database: Redis (Miguel)
+- Vector Database: Weaviate (Blu)
 
 #### Disclaimer
 
