@@ -84,4 +84,16 @@ for our final project.
 
 ### Rubric
 
-coming soon...
+This project is graded on a **16-point scale**. 
+This rubric does not specifically include my general expectations such as 
+semantic and valid HTML/CSS, linking to your project from your portfolio,
+and not plagiarizing. 
+
+I will take additional points off for these issues.
+
+| **Assessment Criteria**         | **Meets Expectations - 4 points**                                                                                  | **Partially Meets Expectations - 3 points**                                     | **Does Not Meet Expectations - 2 points**                                                          | **Not Present - 0 points**                    |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| **Visual Design**               | Game is visually appealing; includes at least one rectangle, one circle, and one other shape (e.g., triangle, path). | Shapes are present but lack polish or cohesion.                                | Only 1–2 required shapes are included, or visuals are disjointed.                                  | No shapes or minimal effort.                 |
+| **Gameplay Mechanics**          | Clear objective is defined; score/game state is tracked and displayed logically.                                   | Objective or score tracking is present but unclear or buggy.                   | Objective is vague, or score/game state is missing/not functional.                                 | No gameplay mechanics implemented.          |
+| **Interactivity**               | At least one event handler (e.g., `keydown`, `mousedown`) works flawlessly to control gameplay.                        | Event handler is implemented but has minor bugs or limitations.                | Event handler is incomplete or non-functional.                                                     | No interactivity.                            |
+| **HTML Presentation**           | HTML page introduces the game and explains rules clearly; game is embedded properly.                               | Instructions or embedding are present but unclear or poorly formatted.         | Instructions are missing, or game is not properly linked/embedded.                                 | No HTML page submitted.                      |
