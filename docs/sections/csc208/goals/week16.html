@@ -42,9 +42,40 @@ sets.
 </p>
 <h3>Investigate!</h3>
 <ol>
-<li>(a) &gt;&gt;&gt; len(range(3, 16))</li>
-<li>(b) &gt;&gt;&gt; len(range(3, 201))</li>
-<li>(c) &gt;&gt;&gt; len([2 * n + 1 for n in range(50)])</li>
+<li>
+  <ul>
+    <li>(a) &gt;&gt;&gt; len(range(3, 16))</li>
+    <li>(b) &gt;&gt;&gt; len(range(3, 201))</li>
+    <li>(c) &gt;&gt;&gt; len([2 * n + 1 for n in range(50)])</li>
+  </ul>
+</li><li>
+  <pre>
+  &gt;&gt;&gt A = {1, 2, 3, 4, 5}
+  &gt;&gt;&gt B = {4, 5, 6, 7, 8, 9}
+  &gt;&gt;&gt A | B
+  {1, 2, 3, 4, 5, 6, 7, 8, 9}
+  &gt;&gt;&gt len(A | B)
+  9
+  &gt;&gt;&gt A & B
+  {4, 5}
+  &gt;&gt;&gt len(A & B)
+  2
+  </pre>
+</li>
+</li><li>
+  <pre>
+  &gt;&gt;&gt A = {1, 2, 3, 4, 5}
+  &gt;&gt;&gt B = {3, 4, 5, 6, 7}
+  &gt;&gt;&gt A | B
+  {1, 2, 3, 4, 5, 6, 7}
+  &gt;&gt;&gt len(A | B)
+  7
+  &gt;&gt;&gt A & B
+  {3, 4, 5}
+  &gt;&gt;&gt len(A & B)
+  3
+  </pre>
+</li>
 </ol>
 </div>
 </section>
